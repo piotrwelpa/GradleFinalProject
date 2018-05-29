@@ -50,3 +50,9 @@ dependencies {
     implementation project(':JokeTellingLibrary')
     implementation project(':showjoke')
 }
+
+sourceSets {
+    androidTest{
+        java.srcDir file('src/androidTest/java/builditbigger')
+    }
+}
